@@ -12,7 +12,7 @@ end)
 local tgls = serv:Channel("Auto HakiPad")
 
 btns:Button("Auto Hakipad + summon Rip Indra", function()
-local CFrameEnd = CFrame.new(-5494.25586, 314.112183 2829.02612, -0.530700755e-08, -0.863424182, 1.88888105e-08, 0.863424182, 2.8003118e-08, -0.504478633) --ใส่พิกัดวาร์ปใน()
+local CFrameEnd = CFrame.new(-5494.25586, 314.112183, 2829.02612, -0.530700755e-08, -0.863424182, 1.88888105e-08, 0.863424182, 2.8003118e-08, -0.504478633) --ใส่พิกัดวาร์ปใน()
 local Time = 40 --แนะนำ28
 local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart,
     TweenInfo.new(Time), {CFrame = CFrameEnd}) tween:Play()
