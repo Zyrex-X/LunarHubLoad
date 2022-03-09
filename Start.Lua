@@ -5,11 +5,11 @@ local serv = win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
 local lbls = serv:Channel("Auto")
 lbls:Label("AutoFarm Function")
 
-local tgls = serv:Channel("Auto")
+local btns = serv:Channel("Auto")
 tgls:Toggle("AutoFarm",false, function(bool)
 print(bool)
 end)
-local tgls = serv:Channel("Auto HakiPad")
+local btns = serv:Channel("Auto HakiPad")
 
 btns:Button("Auto Hakipad + summon Rip Indra", function()
 local CFrameEnd = CFrame.new(-5494.25586, 314.112183, 2829.02612, -0.530700755e-08, -0.863424182, 1.88888105e-08, 0.863424182, 2.8003118e-08, -0.504478633) --ใส่พิกัดวาร์ปใน()
